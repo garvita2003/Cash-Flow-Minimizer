@@ -29,8 +29,8 @@ Following are the payments to be done:\
 8. Wells_Fargo             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;       Royal_Bank_of_Canada &emsp;&emsp;&emsp;&emsp;&nbsp; Rs 200
 9. Royal_Bank_of_Canada    &emsp;&emsp;&nbsp;&nbsp;&nbsp;&nbsp;      Westpac &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp; Rs 500
 
-
 This is represented below as a directed graph with the directed edge representing debts.
+
 ![image](https://user-images.githubusercontent.com/54183085/110007387-9c625100-7d40-11eb-9128-29073ea4b3f3.png)
 
 **But there's a catch!!**
@@ -63,13 +63,12 @@ For the current example, the transactions for minimum cash flow are as follows:
 
 ![image](https://user-images.githubusercontent.com/54183085/110007435-aab06d00-7d40-11eb-8e0c-ea5c7ec762a3.png)
 
-So this is the required answer.
-
 # Overview:
 This system is completely **menu-driven**. So when you will run the Java Application, it will guide you and show you the final output.
 1. javac CashFlowMinimizer.java
-2. java CashFlowMinimizer\
+2. java CashFlowMinimizer
 Below is the execution of our current example:
+
 ![Screenshot 2025-01-03 134607](https://github.com/user-attachments/assets/acc674f6-9652-4b7c-971a-adcda2621bd8)
 
 
