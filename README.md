@@ -66,7 +66,7 @@ For the current example, the transactions for minimum cash flow are as follows:
 # Overview:
 This system is completely **menu-driven**. So when you will run the Java Application, it will guide you and show you the final output.
 1. javac CashFlowMinimizer.java
-2. java CashFlowMinimizer/
+2. java CashFlowMinimizer
    
 Below is the execution of our current example:
 
