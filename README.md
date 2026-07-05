@@ -50,9 +50,6 @@
 | **Algorithms** | Greedy matching, Net settlement |
 | **I/O** | Scanner (console input) |
 
-**Language Composition:**
-- Java: 100%
-
 ---
 
 ## 🎓 Skills Gained
@@ -89,60 +86,10 @@
 ## 📸 Demonstration
 
 **Console Output Example:**
-
-```
-********************** Welcome to CASH FLOW MINIMIZER SYSTEM ***********************
-
-This system minimizes the number of transactions among multiple banks 
-in the different corners of the world that use different modes of payment. 
-There is one world bank (with all payment modes) to act as an intermediary 
-between banks that have no common mode of payment.
-
-Enter the number of banks participating in the transactions.
-3
-
-Enter the details of the banks and transactions as stated:
-Bank name, number of payment modes it has, and the payment modes.
-
-World Bank: 
-3
-UPI SWIFT Crypto
-
-Bank 1: 
-2
-UPI SWIFT
-
-Bank 2: 
-2
-SWIFT Crypto
-
-Enter number of transactions.
-2
-
-Enter the details of each transaction:
-0 th transaction: World Bank Bank1 100
-1 th transaction: Bank1 Bank2 50
-
-The transactions for minimum cash flow are as follows:
-Bank1 pays Rs 50 to Bank2 via SWIFT
-Bank2 pays Rs 50 to World Bank via Crypto
-```
+![Screenshot 2025-01-03 134607](https://github.com/user-attachments/assets/acc674f6-9652-4b7c-971a-adcda2621bd8)
 
 **Visual Transaction Flow:**
-```
-Example with 4 Banks:
-
-Input Transactions:
-Bank A → Bank B: Rs 100
-Bank A → Bank C: Rs 50
-Bank C → Bank A: Rs 200
-Bank B → Bank C: Rs 100
-
-Optimized Output:
-Bank A pays Rs 150 to Bank C via UPI
-Bank B pays Rs 100 to Bank C via SWIFT
-(Instead of 4 transactions, only 2 needed)
-```
+![image](https://user-images.githubusercontent.com/54183085/110007435-aab06d00-7d40-11eb-8e0c-ea5c7ec762a3.png)
 
 ---
 
@@ -175,25 +122,6 @@ javac CashFlowMinimizer.java
 **4. Run the Program**
 ```bash
 java CashFlowMinimizer
-```
-
-**5. Follow Console Instructions**
-- Enter number of banks
-- Input bank details and payment modes
-- Enter transaction count
-- Provide transaction details
-- View optimized transactions
-
-**Example Input Session:**
-```
-Enter the number of banks participating: 3
-Bank name and payment modes:
-World Bank: 3 UPI SWIFT Crypto
-Bank 1: 2 UPI SWIFT
-Bank 2: 2 SWIFT Crypto
-Number of transactions: 2
-Transaction 1 - Debtor: World_Bank, Creditor: Bank1, Amount: 100
-Transaction 2 - Debtor: Bank1, Creditor: Bank2, Amount: 50
 ```
 
 ---
